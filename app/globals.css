@@ -2,7 +2,6 @@
 @import "tw-animate-css";
 @import "shadcn/tailwind.css";
 
- 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
@@ -58,7 +57,7 @@
   --accent: oklch(0.97 0 0);
   --accent-foreground: oklch(0.205 0 0);
   --destructive: oklch(0.577 0.245 27.325);
-  --border: oklch(0.922 0 0);
+  --border: oklch(22.091% 0.01764 279.877);
   --input: oklch(0.922 0 0);
   --ring: oklch(0.708 0 0);
   --chart-1: oklch(0.87 0 0);
@@ -84,23 +83,27 @@
   body {
     @apply bg-background text-foreground min-h-full flex flex-col
   }
-  
+
   /* Typography */
   h1 {
     @apply font-medium text-4xl sm:text-5xl md:text-6xl
   }
+
   h2 {
-    @apply font-medium text-3xl sm:text-4xl md:text-5xl 
+    @apply font-medium text-3xl sm:text-4xl md:text-5xl
   }
+
   h3 {
-    @apply font-medium text-2xl sm:text-3xl md:text-4xl 
+    @apply font-medium text-2xl sm:text-3xl md:text-4xl
   }
+
   h4 {
-    @apply font-medium text-lg sm:text-xl md:text-2xl 
+    @apply font-medium text-lg sm:text-xl md:text-2xl
   }
+
   p {
     @apply font-normal text-base sm:text-lg
-  } 
+  }
 
   button:not(:disabled), [role="button"]:not(:disabled) {
     cursor: pointer;
