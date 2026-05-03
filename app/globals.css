@@ -84,6 +84,10 @@
     @apply bg-background text-foreground min-h-full flex flex-col
   }
 
+  main {
+    @apply container mx-auto px-2.5
+  }
+
   /* Typography */
   h1 {
     @apply font-medium text-4xl sm:text-5xl md:text-6xl
