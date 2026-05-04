@@ -86,7 +86,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={cn("h-full", "antialiased", spaceGrotesk.className)}>
+    <html lang="en" className={`h-full antialiased ${spaceGrotesk.className}`}>
       <body>
         <Navbar />
         {children}
