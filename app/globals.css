@@ -90,7 +90,7 @@
 
   /* Typography */
   h1 {
-    @apply font-medium text-4xl sm:text-5xl md:text-6xl
+    @apply font-medium text-4xl sm:text-5xl md:text-6xl lg:leading-19.25
   }
 
   h2 {
