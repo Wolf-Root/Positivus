@@ -31,11 +31,11 @@ export const metadata: Metadata = {
 
   icons: {
     icon: [
-      { url: "/favicon.ico" },
-      { url: "/favicon-16x16.png", sizes: "16x16" },
-      { url: "/favicon-32x32.png", sizes: "32x32" },
-      { url: "/android-chrome-192x192.png", sizes: "192x192" },
-      { url: "/android-chrome-512x512.png", sizes: "512x512" },
+      { url: "/Favicons/favicon.ico" },
+      { url: "/Favicons/favicon-16x16.png", sizes: "16x16" },
+      { url: "/Favicons/favicon-32x32.png", sizes: "32x32" },
+      { url: "/Favicons/android-chrome-192x192.png", sizes: "192x192" },
+      { url: "/Favicons/android-chrome-512x512.png", sizes: "512x512" },
     ],
     apple: "/apple-touch-icon.png",
   },
