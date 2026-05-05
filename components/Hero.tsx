@@ -51,7 +51,7 @@ export default function Hero() {
             alt={alt}
             width={150}
             height={48}
-            className="w-auto h-12 grayscale-100 duration-300 hover:grayscale-50"
+            className="w-auto h-12 grayscale-100 duration-300 hover:grayscale-50 hover:scale-110"
           />
         ))}
       </div>
