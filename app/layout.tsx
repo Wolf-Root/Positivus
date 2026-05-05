@@ -36,10 +36,10 @@ export const metadata: Metadata = {
       { url: "/Favicons/android-chrome-192x192.png", sizes: "192x192" },
       { url: "/Favicons/android-chrome-512x512.png", sizes: "512x512" },
     ],
-    apple: "/apple-touch-icon.png",
+    apple: "/Favicons/apple-touch-icon.png",
   },
 
-  manifest: "/site.webmanifest",
+  manifest: "/Favicons/site.webmanifest",
 
   openGraph: {
     title: "Positivus - Digital Marketing",
