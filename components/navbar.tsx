@@ -52,7 +52,7 @@ export const Navbar = ({
   },
 }: NavbarProps) => {
   return (
-    <header className={cn("bg-background border-b border-border/20 fixed w-full left-0 right-0")}>
+    <header className={cn("bg-background/20 backdrop-blur-2xl border-b border-border/20 fixed w-full left-0 right-0")}>
       {/* container */}
       <div className="container mx-auto p-2.5">
         {/* Desktop Menu */}
